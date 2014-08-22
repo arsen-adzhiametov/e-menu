@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:baselineAligned="false">
+
+    <RelativeLayout android:id="@+id/list_fragment"
+                    android:layout_weight="0.7"
+                    android:background="@android:color/darker_gray"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+    <LinearLayout android:id="@+id/details_and_mods"
+                    android:layout_weight="0.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:baselineAligned="false">
+
+        <RelativeLayout android:id="@+id/details_fragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" android:layout_weight="0.2"/>
+
+        <RelativeLayout android:id="@+id/modifications_fragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" android:layout_weight="0.8"/>
+    </LinearLayout>
+
+    <RelativeLayout android:id="@+id/actions"
+                    android:layout_weight="0.8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+        <Button android:id="@+id/action_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Кнопка_1"/>
+
+        <Button android:id="@+id/action_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/action_1"
+                android:text="Кнопка_2"/>
+
+        <Button android:id="@+id/action_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/action_2"
+                android:text="Кнопка_3"/>
+
+        <Button android:id="@+id/action_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/action_3"
+                android:text="Кнопка_4"/>
+
+        <Button android:id="@+id/action_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/action_4"
+                android:text="Кнопка_5"/>
+    </RelativeLayout>
+</LinearLayout>

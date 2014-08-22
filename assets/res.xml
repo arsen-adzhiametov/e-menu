@@ -1,0 +1,40 @@
+<resources>
+
+    <workers length="4">
+        <name>Игорь</name>
+        <name>Маша</name>
+        <name>Арнольд</name>
+        <name>Степан</name>
+    </workers>
+
+    <food length="3">
+        <Состав>
+            <Номенклатура>
+                <DishCode>00001</DishCode>
+                <DishName>Борщ</DishName>
+                <DishFullNane>Борщ Украинский</DishFullNane>
+            </Номенклатура>
+            <Price>5</Price>
+        </Состав>
+        <Состав>
+            <Номенклатура>
+                <DishCode>00003</DishCode>
+                <DishName>Каша гречневая</DishName>
+                <DishFullNane>Каша гречневая гарнир</DishFullNane>
+            </Номенклатура>
+            <Price>5</Price>
+        </Состав>
+        <Состав>
+            <Номенклатура>
+                <DishCode>00002</DishCode>
+                <DishName>Солянка</DishName>
+                <DishFullNane>Солянка самая настоящая</DishFullNane>
+            </Номенклатура>
+            <Price>5</Price>
+        </Состав>
+    </food>
+</resources>
+
+<!--
+Комментарии писать будем тут. Исправляй, предлагай, высылай. И так по кругу
+-->

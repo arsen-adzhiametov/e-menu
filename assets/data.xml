@@ -1,0 +1,65 @@
+<data>
+
+    <server>
+        <url>http://</url>
+        <login>ecvador</login>
+        <password>sambrero</password>
+    </server>
+
+    <workers>
+        <worker name="Коля" password="123" role="user"/>
+        <worker name="Ника" password="456" role="user"/>
+        <worker name="Яна" password="789" role="user"/>
+    </workers>
+
+    <halls>
+        <hall id="0">
+            <tables>
+                <table id="0" width="100" height="100" positionX="30" positionY="30"/>
+                <table id="1" width="100" height="200" positionX="200" positionY="200"/>
+                <table id="2" width="500" height="100" positionX="30" positionY="400"/>
+            </tables>
+        </hall>
+        <hall id="1">
+            <tables>
+                <table id="3" width="100" height="100" positionX="30" positionY="30"/>
+            </tables>
+        </hall>
+    </halls>
+
+    <dishes>
+
+        <dish id="0">
+            <name>Солянка</name>
+            <classes>
+                <clazz name="горячее блюдо"/>
+                <clazz name="первое блюдо"/>
+            </classes>
+            <mods>
+                <mod name="с лимоном" price="1"/>
+                <mod name="с маслиной" price="1"/>
+                <mod name="со сметаной" price="1"/>
+            </mods>
+            <units>
+                <unit name="порция, 300г" price="10"/>
+                <unit name="пол порции" price="6"/>
+            </units>
+        </dish>
+
+        <dish id="2">
+            <name>Водка</name>
+            <classes>
+                <clazz name="спиртные напитки"/>
+                <clazz name="крепкий алкоголь"/>
+            </classes>
+            <mods></mods>
+            <units>
+                <unit name="бутылка" price="50"/>
+                <unit name="100г" price="15"/>
+                <unit name="50г" price="10"/>
+            </units>
+        </dish>
+
+    </dishes>
+
+</data>

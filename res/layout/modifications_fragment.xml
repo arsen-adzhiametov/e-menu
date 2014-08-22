@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent">
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        <Button android:id="@+id/action_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Button_1"/>
+
+        <Button android:id="@+id/action_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/action_1"
+                android:text="Button_2"/>
+
+        <Button android:id="@+id/action_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/action_2"
+                android:text="Button_3"/>
+
+        <Button android:id="@+id/action_4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/action_3"
+                android:text="Button_4"/>
+
+        <Button android:id="@+id/action_5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/action_4"
+                android:text="Button_5"/>
+
+        <Button android:id="@+id/action_6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/action_5"
+                android:text="Button_6"/>
+
+        <Button android:id="@+id/action_7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@id/action_6"
+                android:text="Button_7"/>
+    </RelativeLayout>
+</HorizontalScrollView>

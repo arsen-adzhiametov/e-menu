@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <!--<TextClock-->
+    <!--android:format24Hour="MMM dd, yyyy, kk:mm:ss"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textSize="20sp"-->
+    <!--android:shadowColor="#7fffffff"-->
+    <!--android:shadowRadius="3.0"-->
+    <!--android:layout_width="150dp"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!-- not working in ASUS TRANSFORMER TF101 android.version 4.03-->
+    <!-- from API 17-->
+
+    <!-- deprecated in API 18-->
+    <DigitalClock
+            android:id="@+id/digitalClock"
+            android:format24Hour="MMM dd, yyyy, kk:mm:ss"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:shadowColor="#7fffffff"
+            android:shadowRadius="3.0"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"/>
+
+    <TextView
+            android:text=""
+            android:textColor="@android:color/white"
+            android:id="@+id/worker_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+    </TextView>
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/gridMainMenuButtons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:columnCount="3"
+                android:orientation="horizontal">
+
+        <Button android:id="@+id/goodslist"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:text="Список товаров"/>
+        <Button android:id="@+id/orderList"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:text="Список заказов"/>
+        <Button android:id="@+id/doOrder"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:text="Сделать заказ"/>
+        <Button android:id="@+id/changeTable"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:text="Сменить стол"/>
+        <Button android:id="@+id/reserveTable"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:text="Резерв стола"/>
+        <Button android:id="@+id/disOrder"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:text="Отмена заказа"/>
+        <Button android:id="@+id/exit"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:text="Выход"/>
+    </GridLayout>
+
+</RelativeLayout>
